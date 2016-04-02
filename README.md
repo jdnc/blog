@@ -1,1 +1,1 @@
-This is Madhura's technical bloq
+This is Madhura's technical blog.

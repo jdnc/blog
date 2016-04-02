@@ -7,7 +7,6 @@
 
 
         <nav class="site-nav">
-            <a href="{{ site.baseurl }}/">Home</a>
             {% for page in site.pages %}
                 {% unless page.exclude %}
                 {% if page.title %}
@@ -15,8 +14,6 @@
                 {% endif %}
                 {% endunless %}
             {% endfor %}
-            <a href="https://github.com/andrewcodes/daryl">GitHub Repo</a>
-            <a href="https://github.com/andrewcodes/daryl/archive/master.zip">Download</a>
         </nav>
 
     </div> <!-- .wrapper -->
